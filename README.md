@@ -36,3 +36,18 @@ $("button").bind({
 
 * one() 方法为被选元素附加一个或多个事件处理程序，并规定当事件发生时运行的函数。
 当使用 one() 方法时，每个元素只能运行一次事件处理器函数。
+
+
+ls -bash: ls: command not found (2012-06-25 10:09:54)
+标签： it	分类： Linux学习日志
+
+原因：在设置环境变量时，编辑profile文件没有写正确，导致在命令行下 ls等命令不能够识别。
+
+解决方案：
+ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+
+### npm无法启动时执行nvm use v6.3.1   
+
+
+### switch语句
