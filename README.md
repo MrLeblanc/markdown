@@ -148,3 +148,8 @@ ls -bash: ls: command not found (2012-06-25 10:09:54)
 ### document.write
 
 绝不要使用在文档加载之后使用 document.write()。这会覆盖该文档。
+
+
+### confirm(str)  弹窗判断
+
+![confirm](http://img.mukewang.com/52e35bc60001f01a04230353.jpg)
