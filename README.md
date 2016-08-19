@@ -222,3 +222,29 @@ a++ a--是以a为基准开始的
 ```
 
     注意：数组存储的数据可以是任何类型（数字、字符、布尔值等）除了数字记得加""
+
+### focus获取焦点 blur移除焦点
+
+```js
+  $(document).ready(function(){
+    $("input").focus(function(){
+      $("input").css("background-color","#FFFFCC");
+    });
+    $("input").blur(function(){
+      $("input").css("background-color","#D6D6FF");
+    });
+  });
+```
+### javascript中onclick(this)用法介绍
+
+```css
+  <input id="myinput" type="text" value="javascript中onclick中的this" onclick="javascript:test(this);"/>
+```
+
+```js
+    function test(obj){
+      alert(obj); //[object HTMLInputElement]
+      alert(obj.id); //myinput
+      alert(obj.value); //javascript中onclick中的this
+    }
+```
