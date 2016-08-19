@@ -248,3 +248,18 @@ a++ a--是以a为基准开始的
       alert(obj.value); //javascript中onclick中的this
     }
 ```
+
+### 常用的与鼠标相关的方法
+
+* onmouseover
+* onmouseout
+* onmousedown
+* onmouseup
+* onclick
+
+### 事件委托 parentNode
+
+### git恢复操作
+
+    git stash
+    git stash drop
